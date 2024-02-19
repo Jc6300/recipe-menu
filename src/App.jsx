@@ -11,7 +11,7 @@ function App() {
 	return (
 		<main>
 			<img
-				src="assets\images\image-omelette.jpeg"
+				src="src\assets\images\image-omelette.jpeg"
 				alt="A picture of an Omelette"
 			/>
 			<div className="recipe-page">
