@@ -2,6 +2,7 @@
 import Description from "./Components/Description";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import HeroImg from "./Components/HeroImg";
 // import HeroImg from "./Components/HeroImg";
 import Ingredients from "./Components/Ingredients";
 import Instructions from "./Components/Instructions";
@@ -12,11 +13,8 @@ import Table from "./Components/Table";
 function App() {
 	return (
 		<main>
-			<img
-				src="assets\images\image-omelette.jpeg"
-				alt="A picture of an Omelette"
-			/>
 			<div className="recipe-page">
+				<HeroImg />
 				<Header />
 				<Description />
 				<PreparationTime />
