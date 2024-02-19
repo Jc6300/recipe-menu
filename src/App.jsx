@@ -1,8 +1,6 @@
-// import "./App.css";
 import Description from "./Components/Description";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-// import HeroImg from "./Components/HeroImg";
 import Ingredients from "./Components/Ingredients";
 import Instructions from "./Components/Instructions";
 import Nutrition from "./Components/Nutrition";
