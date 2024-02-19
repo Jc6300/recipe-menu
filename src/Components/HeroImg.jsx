@@ -1,4 +1,4 @@
 const HeroImg = () => {
-	return <img src="src\assets\images\image-omelette.jpeg" />;
+	return <img src="public\images\image-omelette.jpeg" />;
 };
 export default HeroImg;
