@@ -10,19 +10,21 @@ import Table from "./Components/Table";
 
 function App() {
 	return (
-		<main>
-			<div className="recipe-page">
-				<HeroImg />
-				<Header />
-				<Description />
-				<PreparationTime />
-				<Ingredients />
-				<Instructions />
-				<Nutrition />
-				<Table />
-				<Footer />
-			</div>
-		</main>
+		<>
+			<main>
+				<div className="recipe-page">
+					<HeroImg />
+					<Header />
+					<Description />
+					<PreparationTime />
+					<Ingredients />
+					<Instructions />
+					<Nutrition />
+					<Table />
+				</div>
+			</main>
+			<Footer />
+		</>
 	);
 }
 
